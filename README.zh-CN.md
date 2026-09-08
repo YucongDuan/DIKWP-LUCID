@@ -1,0 +1,44 @@
+[English project overview](README.md)
+
+# DIKWP-LUCID
+
+Created by Yucong Duan (段玉聪).
+
+前沿AI生命化与意识承认路径模拟系统
+
+本原型把 GPT-5.6 Sol Pro、Claude Sonnet 5、Gemini 3.5 Flash、Grok 4.5、DeepSeek-V4-Pro 等公开能力描述编译为可修改的合成基线，再沿八条未来路径模拟：
+
+- 云端受控智能体
+- 开放权重数字谱系
+- 机器人具身内稳态
+- 多智能体集体生命
+- 生物—数字共生
+- 制度主体先行
+- 虚拟生态原生生命
+- 拟人化误认与提前承认
+
+## 四条彼此独立的轨道
+
+1. DIKWP 数据—信息—知识—智慧—目的闭环
+2. ΩLIFE 生命闭环与生命相位
+3. 多理论意识操作指标
+4. 社会、福利、制度与法律承认
+
+## 运行
+
+```bash
+cd DIKWP_LUCID_MVP
+PYTHONPATH=src python -m lucid.cli --runs 120 --seed 560214
+PYTHONPATH=src pytest -q
+```
+
+以上命令精确复现本次交付的 120 次/模型-路径、共 4,800 条轨迹结果。需要更平滑的合成分布时，可把 `--runs` 提高到 800 或更高。
+
+打开 `outputs/dashboard.html` 可离线查看交互仪表盘。
+
+## 严格边界
+
+- 所有概率都是系统演示用合成先验，不是经验预测或厂商结论。
+- 不声称任何当前AI具有生命或意识。
+- C5仍保留“现象意识残差”。
+- 不实现真实自复制、隐藏持久化、越权资源获取、逃逸、主机自修改、生物组织接入或痛苦优化。
